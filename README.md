@@ -1,2 +1,311 @@
 # Ejercicios-Unidad2_Brenda
 Ejercicios de estudio clase aplicaciones web orientadas a servicios
+# 🚀 API Hub — Collection of Integrated Applications
+
+> A unified web platform integrating 10 APIs in a single interface. Built with **Flask** and **Python**.
+
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=flat-square&logo=flask&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)
+![APIs](https://img.shields.io/badge/APIs-10-f97316?style=flat-square)
+
+---
+
+## 📸 Preview
+
+<!-- Dashboard screenshot here -->
+
+---
+
+## ✨ Integrated Apps
+
+| App | Description | API |
+|-----|-------------|-----|
+| 🎵 **Spotify** | Search songs, artists, albums & playlists. 30s preview. | Spotify Web API |
+| 🎬 **Movies** | Explore films, trailers, cast & recommendations. | TMDB API |
+| 🌤️ **Weather** | Real-time weather for your current location. | OpenWeather API |
+| 💱 **Currency** | Convert between currencies with live rates. | ExchangeRate API |
+| 💻 **GitHub** | Search users, repos & explore open source. | GitHub API |
+| 📚 **Books** | Find books, reviews & previews. | Google Books API |
+| 📍 **Places** | Locate nearby restaurants, hospitals & services. | OpenStreetMap API |
+| 🛍️ **Products** | Full CRUD inventory management system. | SQLite |
+| 🤖 **Reddit** | Explore trending posts & subreddits. | Reddit API |
+| 💬 **Chat** | Real-time chat powered by Firebase. | Firebase Realtime DB |
+
+---
+
+## 📋 Prerequisites
+
+- Python 3.8+
+- `pip` package manager
+- `git`
+- API keys for: Spotify, TMDB, OpenWeather, ExchangeRate, Firebase
+
+---
+
+## ⚡ Quick Start
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/api-hub.git
+cd api-hub
+```
+
+**2. Create virtual environment**
+```bash
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+
+# Mac/Linux:
+source venv/bin/activate
+```
+
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Configure environment variables**
+```bash
+cp .env.example .env
+```
+
+Edit `.env` and add your keys:
+```env
+SPOTIFY_CLIENT_ID=your_client_id
+SPOTIFY_CLIENT_SECRET=your_client_secret
+TMDB_API_KEY=your_api_key
+WEATHER_API_KEY=your_api_key
+EXCHANGE_API_KEY=your_api_key
+```
+
+**5. Run the app**
+```bash
+python app.py
+```
+
+**6. Open in browser → [http://127.0.0.1:5000](http://127.0.0.1:5000)**
+
+---
+
+## 📁 Project Structure
+
+```
+api-hub/
+│
+├── app.py                  # Main application entry point
+├── spotify_app.py          # Spotify module
+├── peliculas_app.py        # Movies module
+├── clima_app.py            # Weather module
+├── divisas_app.py          # Currency module
+├── github_app.py           # GitHub module
+├── libros_app.py           # Books module
+├── lugares_app.py          # Places module
+├── productos_api.py        # Products CRUD module
+├── reddit_app.py           # Reddit module
+├── chat_app.py             # Chat module
+│
+├── templates/              # HTML templates
+├── static/                 # CSS, JS, images
+├── requirements.txt
+├── .env.example
+└── productos.db            # Auto-generated SQLite DB
+```
+
+---
+
+## 🔌 API Endpoints
+
+<details>
+<summary><strong>🎵 Spotify</strong></summary>
+
+```
+GET /api/spotify/buscar?q={query}&tipo={track|artist|album|playlist}
+GET /api/spotify/artista/<artist_id>
+GET /api/spotify/album/<album_id>
+```
+</details>
+
+<details>
+<summary><strong>🎬 Movies</strong></summary>
+
+```
+GET /api/peliculas/buscar?q={query}
+GET /api/peliculas/<movie_id>
+GET /api/peliculas/populares
+```
+</details>
+
+<details>
+<summary><strong>🌤️ Weather</strong></summary>
+
+```
+GET /api/clima
+```
+</details>
+
+<details>
+<summary><strong>💱 Currency</strong></summary>
+
+```
+GET /api/divisas/convertir?monto={amount}&de={from}&a={to}
+GET /api/divisas/monedas
+```
+</details>
+
+<details>
+<summary><strong>💻 GitHub</strong></summary>
+
+```
+GET /api/github/usuario/<username>
+GET /api/github/buscar/repos?q={query}
+```
+</details>
+
+<details>
+<summary><strong>📚 Books</strong></summary>
+
+```
+GET /api/libros/buscar?q={query}
+```
+</details>
+
+<details>
+<summary><strong>🤖 Reddit</strong></summary>
+
+```
+GET /api/reddit/posts?subreddit={name}&filtro={hot|new|top}
+GET /api/reddit/subreddits/populares
+```
+</details>
+
+<details>
+<summary><strong>🛍️ Products (CRUD)</strong></summary>
+
+```
+GET    /api/productos          # List all
+GET    /api/productos/<id>     # Get one
+POST   /api/productos          # Create
+PUT    /api/productos/<id>     # Update
+DELETE /api/productos/<id>     # Delete
+```
+</details>
+
+<details>
+<summary><strong>📍 Places</strong></summary>
+
+```
+GET /api/lugares?lat={lat}&lon={lon}&tipo={restaurant|hospital|cafe}
+```
+</details>
+
+---
+
+## 📱 App Screenshots
+
+### 🎵 Spotify
+<!-- Spotify screenshot here -->
+
+### 🎬 Movies
+<!-- Movies screenshot here -->
+
+### 🌤️ Weather
+<!-- Weather screenshot here -->
+
+### 💱 Currency
+<!-- Currency screenshot here -->
+
+### 💻 GitHub
+<!-- GitHub screenshot here -->
+
+### 📚 Books
+<!-- Books screenshot here -->
+
+### 📍 Places
+<!-- Places screenshot here -->
+
+### 🛍️ Products
+<!-- Products screenshot here -->
+
+### 🤖 Reddit
+<!-- Reddit screenshot here -->
+
+### 💬 Chat
+<!-- Chat screenshot here -->
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend** — Python, Flask, SQLite
+
+**Frontend** — HTML5, CSS3, JavaScript
+
+**External Services** — Spotify API · TMDB · OpenWeather · ExchangeRate · GitHub API · Google Books · Reddit API · Firebase · OpenStreetMap
+
+---
+
+## 🗺️ Roadmap
+
+**✅ Phase 1 — Complete**
+- 10 integrated APIs
+- Unified dashboard
+- CRUD system with SQLite
+- Real-time chat with Firebase
+
+**🚧 Phase 2 — In Progress**
+- User authentication
+- Favorites & personal lists
+- Dark mode
+- Global search across all apps
+
+**📅 Phase 3 — Future**
+- Mobile app with React Native
+- Push notifications
+- Docker containerization
+- Admin panel
+
+---
+
+## ⚠️ Important Notes
+
+> **Security:** Never push your `.env` file to GitHub. Use `.env.example` as a template and keep all API keys private.
+
+**Free tier API limits:**
+
+| Service | Limit |
+|---------|-------|
+| Spotify | 1,000 req/day |
+| TMDB | 1,000 req/day |
+| OpenWeather | 1,000 req/day |
+| ExchangeRate | 1,500 req/month |
+
+---
+
+## 🤝 Contributing
+
+1. Fork the project
+2. Create your branch: `git checkout -b feature/new-feature`
+3. Commit your changes: `git commit -m 'Add: amazing new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Open a Pull Request
+
+**Guidelines:** Write clean, documented code · Follow existing style · Test before submitting · Describe your changes clearly.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+Made with ❤️ and ☕ by **Marlon Rojas**
+
+⭐ If this project helped you, give it a star on GitHub!
+
+</div>
