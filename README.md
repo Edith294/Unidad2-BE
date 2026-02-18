@@ -318,7 +318,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-Made with ❤️ and ☕ by **Marlon Rojas**
+Made with ❤️ and ☕ by **Brenda Edith Grifaldo Delgadillo**
+Licencia y Propiedad exclusiva de Brenda
+Todos los derechos reservados®
 
 ⭐ If this project helped you, give it a star on GitHub!
 
