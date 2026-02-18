@@ -206,34 +206,48 @@ GET /api/lugares?lat={lat}&lon={lon}&tipo={restaurant|hospital|cafe}
 ## 📱 App Screenshots
 
 ### 🎵 Spotify
-<!-- Spotify screenshot here -->
+<img width="1899" height="972" alt="image" src="https://github.com/user-attachments/assets/2401e912-8a07-4ca8-8ff4-d71c0bcaed45" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a230ba3f-4088-4393-9d3b-e3ce164484ab" />
+
 
 ### 🎬 Movies
-<!-- Movies screenshot here -->
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c5aaf7ac-f42e-45fe-90c1-8edd5c309ca9" />
+<img width="1915" height="1006" alt="image" src="https://github.com/user-attachments/assets/b28e46cb-cbe0-4260-9a3f-1a847b31ea33" />
+
 
 ### 🌤️ Weather
-<!-- Weather screenshot here -->
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/f10a2948-ceb3-480a-bc02-162c3ed37a1e" />
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/536a8368-a6ff-4759-9d94-e7e15b5fd25b" />
+
 
 ### 💱 Currency
-<!-- Currency screenshot here -->
+<img width="1905" height="950" alt="image" src="https://github.com/user-attachments/assets/6e99128a-9d45-47d9-b036-c590a9c0acf9" />
+
 
 ### 💻 GitHub
-<!-- GitHub screenshot here -->
+<img width="1908" height="970" alt="image" src="https://github.com/user-attachments/assets/15450ab3-1bca-43fd-9e05-4b30edd30dff" />
+
 
 ### 📚 Books
-<!-- Books screenshot here -->
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/c1a864b2-78e9-4214-bc3a-06ea9c1afa6e" />
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/4fcfa5bd-db85-4a5f-a51e-de3ae11017fe" />
+
 
 ### 📍 Places
-<!-- Places screenshot here -->
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/a30f2af8-3457-49cd-bdd7-ab8de4742bc5" />
+
 
 ### 🛍️ Products
-<!-- Products screenshot here -->
+<img width="1908" height="967" alt="image" src="https://github.com/user-attachments/assets/6f24f595-88dc-4d7d-a6ec-1aa396ceb7c8" />
+
 
 ### 🤖 Reddit
-<!-- Reddit screenshot here -->
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/8aad2495-a5a2-486e-969f-13ea3162b988" />
+
 
 ### 💬 Chat
-<!-- Chat screenshot here -->
+<img width="1915" height="964" alt="image" src="https://github.com/user-attachments/assets/8bff1c7d-c0b5-40db-a4bc-43019c5f9596" />
+
 
 ---
 
